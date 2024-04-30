@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_2"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/dayPlanFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.DayPlanFragment"
+        android:label="fragment_day_plan"
+        tools:layout="@layout/fragment_day_plan" >
+        <action
+            android:id="@+id/action_dayPlanFragment_to_dayPlanDetailFragment"
+            app:destination="@id/dayPlanDetailFragment" />
+        <action
+            android:id="@+id/action_dayPlanFragment_to_gratefulFragment"
+            app:destination="@id/gratefulFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="de.syntax.androidabschluss.ui.home.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_gettingHelpFragment"
+            app:destination="@id/gettingHelpFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bottomSheetFragment"
+            app:destination="@id/bottomSheetFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_allEventsFragment"
+            app:destination="@id/allEventsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="de.syntax.androidabschluss.ui.home.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_startActivity"
+            app:destination="@id/startActivity" />
+        <action
+            android:id="@+id/action_settingsFragment_to_passwordFragment"
+            app:destination="@id/passwordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="de.syntax.androidabschluss.ui.home.notes.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes" >
+        <action
+            android:id="@+id/action_notesFragment_to_createNoteFragment"
+            app:destination="@id/createNoteFragment" />
+        <action
+            android:id="@+id/action_notesFragment_to_editNoteFragment"
+            app:destination="@id/editNoteFragment" />
+        <action
+            android:id="@+id/action_notesFragment_self"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/meditationFragment"
+        android:name="de.syntax.androidabschluss.ui.home.meditation.MeditationFragment"
+        android:label="fragment_meditation"
+        tools:layout="@layout/fragment_meditation">
+        <action
+            android:id="@+id/action_meditationFragment_to_dayPlanFragment"
+            app:destination="@id/dayPlanFragment" />
+        <action
+            android:id="@+id/action_meditationFragment_to_breathFragment"
+            app:destination="@id/breathFragment" />
+        <action
+            android:id="@+id/action_meditationFragment_to_relaxFragment"
+            app:destination="@id/relaxFragment" />
+        <action
+            android:id="@+id/action_meditationFragment_to_mindfullFragment"
+            app:destination="@id/mindfullFragment" />
+        <action
+            android:id="@+id/action_meditationFragment_to_meditationHelpFragment"
+            app:destination="@id/meditationHelpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dayPlanDetailFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.DayPlanDetailFragment"
+        android:label="fragment_day_plan_detail"
+        tools:layout="@layout/fragment_day_plan_detail" >
+        <action
+            android:id="@+id/action_dayPlanDetailFragment_to_healthyFoodFragment"
+            app:destination="@id/healthyFoodFragment" />
+        <action
+            android:id="@+id/action_dayPlanDetailFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/breathFragment"
+        android:name="de.syntax.androidabschluss.ui.home.meditation.BreathFragment"
+        android:label="fragment_breath"
+        tools:layout="@layout/fragment_breath" >
+        <action
+            android:id="@+id/action_breathFragment_to_breathInfoFragment"
+            app:destination="@id/breathInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mindfullFragment"
+        android:name="de.syntax.androidabschluss.ui.home.meditation.MindfullFragment"
+        android:label="fragment_jacobsen"
+        tools:layout="@layout/fragment_mindfull" />
+    <fragment
+        android:id="@+id/createNoteFragment"
+        android:name="de.syntax.androidabschluss.ui.home.notes.CreateNoteFragment"
+        android:label="fragment_create_note"
+        tools:layout="@layout/fragment_create_note" >
+        <action
+            android:id="@+id/action_createNoteFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/startActivity"
+        android:name="de.syntax.androidabschluss.ui.start.StartActivity"
+        android:label="activity_start"
+        tools:layout="@layout/activity_start" />
+    <fragment
+        android:id="@+id/editNoteFragment"
+        android:name="de.syntax.androidabschluss.ui.home.notes.EditNoteFragment"
+        android:label="fragment_edit_note"
+        tools:layout="@layout/fragment_edit_note" >
+        <action
+            android:id="@+id/action_editNoteFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+        <argument
+            android:name="noteId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/relaxFragment"
+        android:name="de.syntax.androidabschluss.ui.home.meditation.RelaxFragment"
+        android:label="fragment_relax"
+        tools:layout="@layout/fragment_relax" >
+        <action
+            android:id="@+id/action_relaxFragment_to_meditationFragment"
+            app:destination="@id/meditationFragment" />
+        <action
+            android:id="@+id/action_relaxFragment_self"
+            app:destination="@id/relaxFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gettingHelpFragment"
+        android:name="de.syntax.androidabschluss.ui.home.home.GettingHelpFragment"
+        android:label="GettingHelpFragment"
+        tools:layout="@layout/fragment_getting_help">
+        <action
+            android:id="@+id/action_gettingHelpFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/meditationHelpFragment"
+        android:name="de.syntax.androidabschluss.ui.home.meditation.MeditationHelpFragment"
+        android:label="MeditationHelpFragment"
+        tools:layout="@layout/fragment_meditation_help"/>
+    <dialog
+        android:id="@+id/bottomSheetFragment"
+        android:name="de.syntax.androidabschluss.ui.home.home.BottomSheetFragment"
+        android:label="BottomSheetFragment"
+        tools:layout="@layout/bottomsheet_fragment">
+        <argument
+            android:name="formattedDate"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_bottomSheetFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_bottomSheetFragment_self"
+            app:destination="@id/bottomSheetFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/healthyFoodFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.HealthyFoodFragment"
+        android:label="fragment_healthy_food"
+        tools:layout="@layout/fragment_healthy_food" >
+        <action
+            android:id="@+id/action_healthyFoodFragment_to_recipeDetailsFragment"
+            app:destination="@id/recipeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeDetailsFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.RecipeDetailsFragment"
+        android:label="fragment_recipe_details"
+        tools:layout="@layout/fragment_recipe_details" >
+        <argument
+            android:name="recipeId"
+            app:argType="integer" />
+    </fragment>
+    <dialog
+        android:id="@+id/passwordFragment"
+        android:name="de.syntax.androidabschluss.ui.home.settings.PasswordFragment"
+        android:label="fragment_password"
+        tools:layout="@layout/fragment_password" >
+        <action
+            android:id="@+id/action_passwordFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/toDoFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.ToDoFragment"
+        android:label="fragment_to_do"
+        tools:layout="@layout/fragment_to_do" >
+        <action
+            android:id="@+id/action_toDoFragment_to_bottomSheetTaskFragment"
+            app:destination="@id/bottomSheetTaskFragment" />
+        <action
+            android:id="@+id/action_toDoFragment_to_updateTaskFragment"
+            app:destination="@id/updateTaskFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheetTaskFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.BottomSheetTaskFragment"
+        android:label="fragment_bottom_sheet_task"
+        tools:layout="@layout/fragment_bottom_sheet_task" >
+        <action
+            android:id="@+id/action_bottomSheetTaskFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+    </dialog>
+    <dialog
+        android:id="@+id/allEventsFragment"
+        android:name="de.syntax.androidabschluss.ui.home.home.AllEventsFragment"
+        android:label="fragment_all_events"
+        tools:layout="@layout/fragment_all_events" />
+    <dialog
+        android:id="@+id/updateTaskFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.UpdateTaskFragment"
+        android:label="fragment_update_task"
+        tools:layout="@layout/fragment_update_task" >
+        <argument
+            android:name="taskId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_updateTaskFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/breathInfoFragment"
+        android:name="de.syntax.androidabschluss.ui.home.meditation.BreathInfoFragment"
+        android:label="fragment_breath_info"
+        tools:layout="@layout/fragment_breath_info" >
+        <action
+            android:id="@+id/action_breathInfoFragment_to_breathFragment"
+            app:destination="@id/breathFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gratefulFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.GratefulFragment"
+        android:label="fragment_grateful"
+        tools:layout="@layout/fragment_grateful" >
+        <action
+            android:id="@+id/action_gratefulFragment_to_createDiaryEntryFragment"
+            app:destination="@id/createDiaryEntryFragment" />
+        <action
+            android:id="@+id/action_gratefulFragment_to_editDiaryEntryFragment"
+            app:destination="@id/editDiaryEntryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createDiaryEntryFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.CreateDiaryEntryFragment"
+        android:label="fragment_create_diary_entry"
+        tools:layout="@layout/fragment_create_diary_entry" >
+        <action
+            android:id="@+id/action_createDiaryEntryFragment_to_gratefulFragment"
+            app:destination="@id/gratefulFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editDiaryEntryFragment"
+        android:name="de.syntax.androidabschluss.ui.home.dayPlan.EditDiaryEntryFragment"
+        android:label="fragment_edit_diary_entry"
+        tools:layout="@layout/fragment_edit_diary_entry" >
+        <action
+            android:id="@+id/action_editDiaryEntryFragment_to_gratefulFragment"
+            app:destination="@id/gratefulFragment" />
+        <argument
+            android:name="entryId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

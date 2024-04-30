@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notes">Notizen</string>
+    <string name="login">Einloggen</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Passwort</string>
+    <string name="loginButton">Einloggen</string>
+    <string name="meine_gedanken">Meine Gedanken</string>
+    <string name="day_plan">Tages Plan</string>
+    <string name="day_routine">Tages Routine</string>
+    <string name="meditation">Meditation</string>
+    <string name="start">Start</string>
+    <string name="sign_up_title">Registrieren</string>
+    <string name="cancel_button">Abbrechen</string>
+    <string name="einstellungen">Einstellungen</string>
+    <string name="sekunden_verbleiben">sek. verbleiben</string>
+</resources>

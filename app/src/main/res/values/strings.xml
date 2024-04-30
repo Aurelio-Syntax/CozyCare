@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">Cozy Care</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_start">StartActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="nav_open" translatable="false">Open Navigation Drawer</string>
+    <string name="nav_close" translatable="false">Close Navigation Drawer</string>
+
+    // GratefulBook
+    <string name="new_entry">Neuer Eintrag</string>
+    <string name="create_title">Titel</string>
+    <string name="grateful_text">Ich bin dankbar für...</string>
+    <string name="grateful_book_title">Dankbarkeitstagebuch</string>
+    <string name="edit_entry">Eintrag bearbeiten</string>
+
+
+    // Notes
+    <string name="notes">Notizen</string>
+    <string name="notes_title">Notes Titel</string>
+    <string name="notes_sub_title">Notes Untertitel</string>
+    <string name="notes_desc">Schreibe deine Notiz...</string>
+    <string name="date">Datum</string>
+    <string name="search">Suche in Notizen</string>
+    <string name="titel_required">Bitte gib einen Titel ein</string>
+    <string name="description_required">Bitte gib einen Text ein</string>
+    <string name="new_note">Neue Notiz</string>
+    <string name="edit_note">Notiz bearbeiten</string>
+
+    // Fast Note
+    <string name="fast_note">Schnell Notiz</string>
+    <string name="write_text">Gebe deinen Text ein:</string>
+    <string name="alert_cancel">Abbrechen</string>
+    <string name="alert_save">Speichern</string>
+
+    // Authentication
+    <string name="login_toast">Bitte fülle alle Felder aus</string>
+    <string name="signup_toast">Registrierung erfolgreich</string>
+    <string name="passwort_length">Passwort muss mindestens 6 Zeichen lang sein</string>
+    <string name="sign_up_title">Registrieren</string>
+    <string name="cancel_button">Abbrechen</string>
+    <string name="login">Einloggen</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Passwort</string>
+    <string name="loginButton">Einloggen</string>
+    <string name="sign_up_button">Registrieren</string>
+    <string name="reset_password">Passwort zurücksetzen</string>
+    <string name="reset_successfull">Eine Email wurde an dich gesendet um dein Passwort zurückzusetzen.</string>
+    <string name="invalid_User">Ein Account mit dieser Email existiert nicht</string>
+    <string name="reset_failed">Passwort zurücksetzen fehlgeschlagen</string>
+    <string name="login_failed">Login fehlgeschlagen!</string>
+    <string name="credentials_incorrect">Email oder Passwort falsch!</string>
+    <string name="accound_alreadyExist">Einen Account mit der Email ist schon registriert</string>
+    <string name="signup_failed">Registrierung fehlgeschlagen!</string>
+    <string name="email_missed">Zum zurücksetzen des Passwortes, bitte eine E-Mail eintragen!</string>
+    <string name="username">Benutzername</string>
+    <string name="password_info">Das Passwort muss aus mindestens 6 Zeichen bestehen</string>
+
+    // Settings
+    <string name="logout">Ausloggen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="english">Englisch</string>
+    <string name="sprache">Sprache</string>
+    <string name="german">Deutsch</string>
+    <string name="profile">Profil</string>
+    <string name="user">Benutzer</string>
+    <string name="logged_in">eingeloggt als:</string>
+    <string name="deleteAcc">Account löschen</string>
+
+    // Settings - Account Delete
+    <string name="delete_Acc">Konto löschen</string>
+    <string name="delete_Message">Sind Sie sicher, dass Sie ihr Konto löschen möchten? Dies kann nicht rückgängig gemacht werden</string>
+    <string name="delete_Positive">Ja, löschen</string>
+    <string name="delete_Negative">Nein, abbrechen</string>
+    <string name="delete_Successful">Konto wurde erfolgreich gelöscht</string>
+    <string name="delete_failed">Fehler beim löschen des Kontos</string>
+
+    // Settings - Passwort Reset
+    <string name="password_changed_success">Passwort wurde erfolgreich geändert</string>
+    <string name="weak_password">Bitte wähle ein sichereres Passwort</string>
+    <string name="password_change_failed">Passwort ändern ist fehlgeschlagen</string>
+    <string name="password_chenge_btn_text">Passwort ändern</string>
+    <string name="password_accept_btn_text">bestätigen</string>
+    <string name="password_input_empty">Das Passwort-Feld darf nicht leer sein</string>
+    <string name="new_password_hint">Neues Passwort</string>
+    <string name="password_not_match">Das Passwort stimmt nicht überein</string>
+    <string name="password_confirm">Passwort bestätigen</string>
+
+    // RecipeDetails
+    <string name="for_person">Für</string>
+    <string name="person">Personen</string>
+    <string name="vegetarian">vegetarisch:</string>
+    <string name="vegan">vegan:</string>
+    <string name="glutenfree">glutenfrei:</string>
+    <string name="ingredients">Zutaten</string>
+
+    //Fragments
+    <string name="entspannungs_melodien">Entspannungs-Melodien</string>
+    <string name="home">Start</string>
+    <string name="atem_uebung">Atem Übung</string>
+    <string name="uebung_nach_jacobsen">Achtsamkeitsübung</string>
+    <string name="relax_sounds">Entspannungsmelodien</string>
+    <string name="einstellungen">Einstellungen</string>
+    <string name="sekunden_verbleiben">sek. verbleiben</string>
+    <string name="dayplan_suggestions">Tagesplan Vorschläge</string>
+    <string name="meine_gedanken">Meine Gedanken</string>
+    <string name="day_plan">Tages Plan</string>
+    <string name="day_routine">Tages Routine</string>
+    <string name="meditation">Meditation</string>
+    <string name="help">Hilfe</string>
+    <string name="suggestions">Vorschläge</string>
+    <string name="breathobservation">1. Atembeobachtung</string>
+    <string name="mindfuleating">2. Achtsames Essen</string>
+    <string name="mindfuleveryday">3. Achtsamkeit im Alltag</string>
+    <string name="naturesounds">Natur-Sounds</string>
+    <string name="todo_list">ToDo - Liste</string>
+    <string name="healthy_food">Gesund Essen</string>
+    <string name="search_healthy">Suche in Rezepte</string>
+    <string name="changePW"><u>Passwort-Änderung</u></string>
+    <string name="allappointments">Alle Termine</string>
+
+    // Alert Dialog - Event - Calendar
+    <string name="add_date">Termin hinzufügen</string>
+    <string name="meeting_description">Terminbeschreibung</string>
+    <string name="additional_description">Zusätzliche Beschreibung</string>
+
+    // Alert Dialog - FastNote
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="deleteButton">Bist du dir sicher, dass du die Note Löschen möchtest?</string>
+
+    // ToDo
+    <string name="todolist">ToDo - Liste</string>
+    <string name="newtask">Neue Aufgabe</string>
+    <string name="taskinput">Aufgabe eingeben</string>
+
+    // Timer
+    <string name="addTime">+15 Sekunden</string>
+    <string name="startTimer">Gib eine Zeit ein</string>
+    <string name="finish">Timer abgelaufen!</string>
+    <string name="setTime">Geben Sie eine Zeit ein</string>
+    <string name="start">Start</string>
+    <string name="timer_title">Finde Ruhe im Chaos</string>
+
+    // Calendar Appointments
+    <string name="upcoming_dates">Anstehende Termine</string>
+    <string name="close_input">Eingabe schließen</string>
+    <string name="add_appointment">Termin hinzufügen</string>
+
+    // Help Text (Home)
+    <string name="help_Home">Im Home Bildschirm hast du die Möglichkeit, Termine einzutragen. Wenn du einen Termin eingetragen hast, wird das Kalendar Icon unten rechts animiert, wodurch du sofort siehst, dass du eingetragene Termine besitzt. Klickst du auf das Icon, werden dir sofort alle Termine angezeigt. Oder aber du klickst auf die einzelnen Tage wo dir immer explizit für den einen Tag angezeigt wird ob du Termine hast.\n\nÜber den Plus Button der in der unteren Mitte schwebt kannst du eine schnelle Notiz
+    verfassen. Diese kannst du in "Notizen" -> (über die Bottom Navigation erreichbar) - einsehen und bearbeiten. Desweiteren wird jede Schnell Notiz auch mit dem Namen Fast Note versehen und besitzt ihre eigene Farbe.</string>
+
+    // Help Text (Meditation)
+    <string name="help_Medi">Kozentriere dich auf deinen Atem und beobachte die Empfindungen, die er beim Ein- und Ausatmen hervorruft. Spüre die Bewegung
+    deines Bauches und deiner Brust. Nimm wahr, wie die Luft durch deine Nase und deinen Mund strömt.</string>
+    <string name="help_Medi2">Nimm dir Zeit zum Essen und genieße es bewusst. Achte auf die Farben, Formen und Texturen der Speisen. Nimm den Duft wahr
+    und schmecke jeden Bissen genau.</string>
+    <string name="help_Medi3">Integriere Achtsamkeit in deinen Alltag, indem du deine Aumerksamkeit auf einfache Tätigkeiten wie Zähneputzen, Abwaschen
+    oder Autofahren lenkst. Nimm die Abläufe bewusst wahr und spüre die Empfindungen, die dabei entstehen.</string>
+
+    // Mindfull Fragment
+    <string name="mindull_text">Such dir einen entspannten Ort wenn möglich und nimm eine lockere Sitz- oder
+        Liegeposition ein. Dann lausch einfach meiner Stimme.</string>
+
+    // DayPlanDetail Fragment
+    <string name="dayroutine1">Früh aufstehen: Konsistentes Aufwachen zur gleichen Zeit, idealerweise zwischen 6 und 7 Uhr, hilft dem Körper, sich an einen Rhythmus zu gewöhnen.</string>
+    <string name="dayroutine2">Sonnenlicht abbekommen: Nach dem Aufstehen die Fenster öffnen oder nach draußen gehen, um Tageslicht abzubekommen. Das hilft, den Biorhythmus zu regulieren und Energie zu spenden.</string>
+    <string name="dayroutine3">Wasser trinken: Ein Glas Wasser auf nüchternen Magen hilft, den Stoffwechsel anzukurbeln und den Körper mit Flüssigkeit zu versorgen.</string>
+    <string name="dayroutine4">Gesundes Frühstück: Ein ausgewogenes Frühstück mit Proteinen, komplexen Kohlenhydraten und Ballaststoffen sorgt für Energie und Konzentration am Morgen.</string>
+    <string name="dayroutine5">Bewegung: Ein kurzer Spaziergang, Yoga oder andere sportliche Aktivitäten am Morgen bringen den Kreislauf in Schwung und fördern die mentale Fitness.</string>
+    <string name="dayroutine6">Strukturierung: Den Tag in verschiedene Abschnitte mit klaren Zielen und Aufgaben einteilen.</string>
+    <string name="dayroutine7">Pausen einplanen: Regelmäßige Pausen, um sich zu bewegen, zu entspannen oder einfach mal abzuschalten, helfen, die Konzentration zu erhalten und Stress zu vermeiden.</string>
+    <string name="dayroutine8">Gesunde Ernährung: Ausgewogene Mahlzeiten mit viel Obst, Gemüse, Vollkornprodukten und Proteinen zu sich nehmen.</string>
+
+    // BreathInfoFragment
+    <string name="breathinfo">Vorbereitung:\n\nFinde einen ruhigen Platz, an dem du ungestört bist.\nSetze dich bequem hin, am besten auf einen Stuhl mit gerader Rückenlehne.\nSchließe deine Augen, wenn du dich dabei wohlfühlst.\n\nÜbung:\n\nWähle eine Atemdauer:\n\nAnfänger: 4 Sekunden einatmen, 4 Sekunden ausatmen, 4 Sekunden Pause\nFortgeschrittene: 6 Sekunden einatmen, 6 Sekunden ausatmen, 6 Sekunden Pause\nProfis: 8 Sekunden einatmen, 8 Sekunden ausatmen, 8 Sekunden Pause\n\nStarte den Timer!\n\nKonzentriere dich auf deine Atmung:\n\nAtme langsam und tief durch die Nase ein.Spüre, wie sich dein Bauch beim Einatmen hebt und beim Ausatmen senkt.Atme vollständig durch den Mund aus.\nAchte während der gesamten Übung auf deine Atmung.\n\nWiederhole den Zyklus:\n\nAtme solange ein, aus und halte den Atem an, wie der Timer eingestellt ist.\n\nTipps:\n\nWenn du dich beim Atmen unwohl fühlst, verlangsame die Atmung oder verkürze die Atemdauer.
+    Du kannst deine Hände auf den Bauch legen, um die Bewegung des Zwerchfells zu spüren.
+    Wenn deine Gedanken wandern, lenke sie sanft wieder auf deine Atmung zurück.\n\nVorteile:\n\nAtemübungen können helfen, Stress und Angst abzubauen.Sie können die Konzentration und die mentale Klarheit verbessern.Sie können zu einem gesünderen Schlaf führen.Sie können das allgemeine Wohlbefinden verbessern.\n\nRegelmäßiges Üben ist der Schlüssel zum Erfolg.</string>
+    <string name="breath_exercise_info">Atmungsübung</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation menu</string>
+    <string name="navigation_drawer_close">Close navigation menu</string>
+
+
+</resources>

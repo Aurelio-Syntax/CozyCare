@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "468032407296",
+    "project_id": "cozy-care",
+    "storage_bucket": "cozy-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468032407296:android:524fdabc508185dd6655e5",
+        "android_client_info": {
+          "package_name": "de.syntax.androidabschluss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468032407296-uokdoh1s70de57sfjkmlg8hegjkl722c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.syntax.androidabschluss",
+            "certificate_hash": "b8bde96a1d23258f9e15dc4484a5904d326a6428"
+          }
+        },
+        {
+          "client_id": "468032407296-3eopujkhn0h0ke03tt4rkc8tg5gbn3oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwYSu5pJ9_-AyjckHGBT9fEXbW8Q8xUYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468032407296-3eopujkhn0h0ke03tt4rkc8tg5gbn3oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
